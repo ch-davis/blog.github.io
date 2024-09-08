@@ -63,3 +63,4 @@ vim /etc/samba/smb.conf
 systemctl restart smb
 systemctl restart nmb
 ```
+<!-- ##{"script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>"}## -->
