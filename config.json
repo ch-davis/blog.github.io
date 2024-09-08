@@ -2,6 +2,9 @@
     "title":"虾虎Blog",
     "subTitle":"这是一个什么都收集的Blog，可能内容杂碎无章，贵在收集（虽然可能没人看）",
     "avatarUrl":"https://avatars.githubusercontent.com/u/149125988?v=4&size=64",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "style":"<style>#postBody{font-size:20px}</style>",
+    "script":"<script async src='//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'></script>"
+
 
 }
