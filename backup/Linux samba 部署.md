@@ -63,3 +63,8 @@ vim /etc/samba/smb.conf
 systemctl restart smb
 systemctl restart nmb
 ```
+
+
+
+
+<span style="color: red;">这是红色的文字</span>
