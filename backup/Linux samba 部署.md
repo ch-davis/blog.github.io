@@ -3,7 +3,7 @@
 ``` shell
 apt install samba
 ```
-  ## 2. 创建用户
+## 2. 创建用户
 
   > 创建一个用于访问共享的账户“smbuser”并设置密码
 
@@ -11,13 +11,13 @@ apt install samba
 useradd -s /sbin/nologin smbuser
 smbpasswd -a smbuser
 ```
-  ## 3. 创建共享文件夹
+## 3. 创建共享文件夹
 > 创建一个共享文件夹并设定相应权限，这里设定权限为777 
 ```
 mkdir /opt/share/
 chmod 777 /opt/share
 ```
-  ## 4. 修改配置文件
+ ## 4. 修改配置文件
  ```
 vim /etc/samba/smb.conf
 ```
