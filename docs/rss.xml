@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>虾虎Blog</title><link>https://ch-davis.github.io/blog.github.io</link><description>这是一个什么都收集的Blog，可能内容杂碎无章，贵在收集（虽然可能没人看）</description><copyright>虾虎Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/149125988?v=4&amp;size=64</url><title>avatar</title><link>https://ch-davis.github.io/blog.github.io</link></image><lastBuildDate>Sun, 08 Sep 2024 10:41:57 +0000</lastBuildDate><managingEditor>虾虎Blog</managingEditor><ttl>60</ttl><webMaster>虾虎Blog</webMaster><item><title>通过zerotier 访问内网的其他设备</title><link>https://ch-davis.github.io/blog.github.io/post/tong-guo-zerotier%20-fang-wen-nei-wang-de-qi-ta-she-bei.html</link><description>&gt; [!note]&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>虾虎Blog</title><link>https://ch-davis.github.io/blog.github.io</link><description>这是一个什么都收集的Blog，可能内容杂碎无章，贵在收集（虽然可能没人看）</description><copyright>虾虎Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/149125988?v=4&amp;size=64</url><title>avatar</title><link>https://ch-davis.github.io/blog.github.io</link></image><lastBuildDate>Sun, 08 Sep 2024 10:46:05 +0000</lastBuildDate><managingEditor>虾虎Blog</managingEditor><ttl>60</ttl><webMaster>虾虎Blog</webMaster><item><title>通过zerotier 访问内网的其他设备</title><link>https://ch-davis.github.io/blog.github.io/post/tong-guo-zerotier%20-fang-wen-nei-wang-de-qi-ta-she-bei.html</link><description>&gt; [!note]&#13;
 &gt; zerotier安装完成后如何访问内网的其他设备呢？&#13;
 &gt; 有些设备并不支持安装又如何解决呢？&#13;
 &gt; 这就是这个文章记录的我的折腾内容。</description><guid isPermaLink="true">https://ch-davis.github.io/blog.github.io/post/tong-guo-zerotier%20-fang-wen-nei-wang-de-qi-ta-she-bei.html</guid><pubDate>Sun, 08 Sep 2024 10:04:08 +0000</pubDate></item><item><title>Linux samba 部署</title><link>https://ch-davis.github.io/blog.github.io/post/Linux%20samba%20-bu-shu.html</link><description>## 1. Samba安装&#13;
@@ -71,5 +71,5 @@ systemctl restart nmb&#13;
 &#13;
 &#13;
 &#13;
-&lt;span style='color: red;'&gt;这是红色的文字&lt;/span&gt;&#13;
+`Gmeek-html&lt;span style='color: red;'&gt;这是红色的文字&lt;/span&gt;`&#13;
 。</description><guid isPermaLink="true">https://ch-davis.github.io/blog.github.io/post/Linux%20samba%20-bu-shu.html</guid><pubDate>Thu, 05 Sep 2024 07:04:39 +0000</pubDate></item></channel></rss>
