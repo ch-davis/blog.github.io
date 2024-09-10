@@ -88,10 +88,9 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h4>按时间搜索：  最近7天内修改的文件</h4>
 <p><code class="notranslate">find /path/to/seach -mtime -7 </code></p>
 <h4>搜索大于100M的文件</h4>
-<p><code class="notranslate">find /path/to/seach -type d -size +100M</code></p>
+<p><code class="notranslate">find /path/to/seach -size +100M</code></p>
 <div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>其中 <code class="notranslate">/path/to/seach</code>代表路径，根据实际情况修改<br>
-<code class="notranslate">/</code>为根目录， <code class="notranslate">.</code>是当前目录 <code class="notranslate">-type f</code> 是搜索文件，<code class="notranslate">-type d</code> 是搜索目录，<code class="notranslate">-type l</code>表示链接，<br>
-<code class="notranslate">-type b</code>  表示设备块。</p>
+<code class="notranslate">/</code>为根目录， <code class="notranslate">.</code>是当前目录 <code class="notranslate">-type f</code> 是搜索文件，<code class="notranslate">-type d</code> 是搜索目录，<code class="notranslate">-type l</code>表示链接， <code class="notranslate">-type b</code>  表示设备块。</p>
 </div></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
