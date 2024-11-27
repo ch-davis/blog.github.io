@@ -90,12 +90,34 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <div class="highlight highlight-source-shell"><pre class="notranslate">ipmitool -H IPMI_IP -U USERNAME -P PASSWORD raw 0x30 0x45 0x01 MODE_HEX</pre></div>
 <p>其中，MODE_HEX 为相应模式的十六进制代码：</p>
 <blockquote>
-<p>[!Node]<br>
-Standard（标准模式）           0x00<br>
-Full（全速模式）                    0x01<br>
-Optimal（最优转速模式）     0x02<br>
-Heavy IO（高负载IO模式）   0x03</p>
+<p>[!Node]</p>
 </blockquote>
+<markdown-accessiblity-table><table role="table">
+<thead>
+<tr>
+<th align="right">模式</th>
+<th>十六进制代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Standard</td>
+<td>0x00</td>
+</tr>
+<tr>
+<td align="right">Full（全速模式）</td>
+<td>0x01</td>
+</tr>
+<tr>
+<td align="right">Optimal（最优转速模式）</td>
+<td>0x02</td>
+</tr>
+<tr>
+<td align="right">Heavy IO（高负载IO模式）</td>
+<td>0x03</td>
+</tr>
+</tbody>
+</table></markdown-accessiblity-table>
 <p>要将风扇模式设置为全速模式，您可以使用以下命令：</p>
 <pre class="notranslate"><code class="notranslate">ipmitool -H 192.168.31.252 -U ADMIN -P ADMIN raw 0x30 0x45 0x01 0x01
 </code></pre>
